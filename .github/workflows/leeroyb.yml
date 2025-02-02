@@ -1,0 +1,20 @@
+            - name: rootly-pulse
+  # You may pin to the exact commit or the version.
+  # uses: rootlyhq/pulse-action@7aa3a8baf889ff8b37a489dde53edece73b24a64
+  uses: rootlyhq/pulse-action@v1.1.1
+  with:
+    # Summary of the pulse
+    summary: 
+    # A API key for rootly
+    api_key: 
+    # Environments associated with the pulse. Separate with commas.
+    environments: # optional
+    # Services associated with the pulse. Separate with commas.
+    services: # optional
+    # Labels associated with the pulse. Separate with commas and separate key-value pair with = (no spaces before or after =).
+    labels: # optional
+    # Source of the pulse
+    source: # optional
+    # Refs associated with the pulse. Separate with commas and separate key-value pair with = (no spaces before or after =).
+    refs: # optional
+          
